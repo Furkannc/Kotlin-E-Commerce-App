@@ -55,7 +55,7 @@ class SQLiteHelper(val context: Context) : SQLiteOpenHelper(context,SQLiteHelper
 
         val result = db.insert(TABLE_PRODUCT,null,contentValues)
 
-        Toast.makeText(context,if(result != -1L) "Registration Successful!" else "Registration failed.", Toast.LENGTH_SHORT).show()
+      //  Toast.makeText(context,if(result != -1L) "Registration Successful!" else "Registration failed.", Toast.LENGTH_SHORT).show()
     }
 
     fun insertCart(product: ProductModel){
